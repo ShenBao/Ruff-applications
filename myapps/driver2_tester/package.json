@@ -1,0 +1,12 @@
+{
+    "name": "driver2_tester",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "ruff": {
+        "dependencies": {
+            "ruff-mbd-v1": "*",
+            "driver2_btngpio": "*"
+        }
+    }
+}

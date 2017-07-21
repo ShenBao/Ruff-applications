@@ -1,0 +1,13 @@
+{
+    "models": [],
+    "inputs": {
+      "myadc": {
+        "type" : "adc",
+        "args" : {
+          "type": "voltage",
+          "min": 0,
+          "max": 5
+        }
+      }
+    }
+}

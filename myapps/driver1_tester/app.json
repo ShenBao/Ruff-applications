@@ -1,0 +1,19 @@
+{
+    "board": "ruff-mbd-v1",
+    "devices": [
+        {
+            "id": "mygpio",
+            "model": "mygpio",
+            "driver": "driver1",
+            "inputs": {
+                "mygpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        }
+    ]
+}

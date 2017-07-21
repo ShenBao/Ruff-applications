@@ -1,0 +1,60 @@
+{
+    "board": "ruff-mbd-v1",
+    "devices": [
+        {
+            "id": "sw-1801p",
+            "model": "SW-1801P",
+            "driver": "sw-1801p",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "falling"
+                    }
+                }
+            }
+        },
+        {
+            "id": "sound-01",
+            "model": "SOUND-01",
+            "driver": "sound-01",
+            "args": {
+                "interval": 1000
+            },
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "falling"
+                    }
+                }
+            }
+        },
+        {
+            "id": "flame-gpio",
+            "model": "FLAME-01",
+            "driver": "flame-gpio",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        },
+        {
+            "id": "hc-sr501",
+            "model": "HC-SR501",
+            "driver": "hc-sr501",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        }
+    ]
+}

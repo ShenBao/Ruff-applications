@@ -1,0 +1,18 @@
+{
+    "board": "ruff-mbd-v1",
+    "devices": [
+        {
+            "id": "btngpio",
+            "model": "btngpio",
+            "driver": "driver2_btngpio",
+            "inputs": {
+                "btngpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in"
+                    }
+                }
+            }
+        }
+    ]
+}

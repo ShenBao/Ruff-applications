@@ -1,0 +1,11 @@
+{
+    "models": [],
+    "inputs": {
+      "btngpio": {
+        "type": "gpio",
+        "args": {
+          "direction": "in"
+        }
+      }
+    }
+}

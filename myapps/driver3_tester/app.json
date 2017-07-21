@@ -1,0 +1,20 @@
+{
+    "board": "ruff-mbd-v1",
+    "devices": [
+        {
+            "id": "myadc",
+            "model": "myadc",
+            "driver": "myadc",
+            "inputs": {
+                "myadc": {
+                    "type": "adc",
+                    "args": {
+                        "type": "voltage",
+                        "min": 0,
+                        "max": 5
+                    }
+                }
+            }
+        }
+    ]
+}

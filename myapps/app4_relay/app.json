@@ -1,0 +1,18 @@
+{
+    "board": "ruff-mbd-v1",
+    "devices": [
+        {
+            "id": "relay-1c",
+            "model": "RELAY-1C",
+            "driver": "relay-1c",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "out_low"
+                    }
+                }
+            }
+        }
+    ]
+}

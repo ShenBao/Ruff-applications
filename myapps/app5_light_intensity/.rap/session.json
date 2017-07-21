@@ -1,0 +1,19 @@
+{
+    "devices": [
+        {
+            "id": "lgao",
+            "uid": "76:33:00:02:06:90",
+            "address": "192.168.2.105"
+        }
+    ],
+    "active": {
+        "index": 0,
+        "id": "lgao",
+        "uid": "76:33:00:02:06:90",
+        "address": "192.168.2.105",
+        "port": 46100,
+        "type": "ack",
+        "version": "2",
+        "shadowport": 7883
+    }
+}

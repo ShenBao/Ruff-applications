@@ -1,0 +1,12 @@
+{
+    "name": "app4",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "ruff": {
+        "dependencies": {
+            "ruff-mbd-v1": "*",
+            "relay-1c": "1.0.0"
+        }
+    }
+}

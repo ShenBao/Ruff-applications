@@ -1,0 +1,12 @@
+{
+    "name": "app2",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "ruff": {
+        "dependencies": {
+            "ruff-mbd-v1": "*",
+            "ky-016": "1.0.5"
+        }
+    }
+}
