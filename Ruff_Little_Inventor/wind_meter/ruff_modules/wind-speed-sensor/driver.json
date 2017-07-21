@@ -1,0 +1,17 @@
+{
+    "models": ["fs-v1-30"],
+    "inputs": {
+        "adc": {
+            "type": "adc"
+        },
+        "power": {
+            "type": "power",
+            "args": {
+                "voltage": "24v"
+            }
+        },
+        "ground": {
+            "type": "ground"
+        }
+    }
+}

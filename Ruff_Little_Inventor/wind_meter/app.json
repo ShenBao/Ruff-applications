@@ -1,0 +1,36 @@
+{
+    "devices": [
+        {
+            "id": "wind",
+            "model": "fs-v1-30",
+            "driver": "wind-speed-sensor",
+            "inputs": {
+                "adc": {
+                    "type": "adc"
+                },
+                "power": {
+                    "type": "power",
+                    "args": {
+                        "voltage": "24v"
+                    }
+                },
+                "ground": {
+                    "type": "ground"
+                }
+            }
+        },
+        {
+            "id": "oled",
+            "model": "SSD1306",
+            "driver": "ssd1306",
+            "inputs": {
+                "i2c": {
+                    "type": "i2c",
+                    "args": {
+                        "address": 60
+                    }
+                }
+            }
+        }
+    ]
+}

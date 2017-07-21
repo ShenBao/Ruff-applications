@@ -1,0 +1,17 @@
+{
+    "name": "umbrella_compass",
+    "version": "0.1.0",
+    "description": "",
+    "author": "Soros Liu",
+    "main": "src/index.js",
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.2.0",
+            "*": "*"
+        },
+        "dependencies": {
+            "gy-271": "^0.1.0",
+            "ssd1306": "^2.1.0"
+        }
+    }
+}

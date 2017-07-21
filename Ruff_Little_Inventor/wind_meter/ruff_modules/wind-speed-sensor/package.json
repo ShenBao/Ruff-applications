@@ -1,0 +1,38 @@
+{
+    "name": "wind-speed-sensor",
+    "version": "0.1.0",
+    "description": "Wind speed sensor driver.",
+    "author": "Jerry",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jerry-weng/wind-speed-sensor.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jerry-weng/wind-speed-sensor/issues"
+    },
+    "homepage": "https://github.com/jerry-weng/wind-speed-sensor",
+    "keywords": [
+        "ruff",
+        "driver",
+        "wind"
+    ],
+    "main": "src/index.js",
+    "scripts": {
+        "install-sdk": "rvm install --local",
+        "install-rap-dependencies": "rap install",
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "ruff ./test/test.js"
+    },
+    "devDependencies": {
+        "eslint": "^2.13.1",
+        "ruff-standard": "^0.1.6",
+        "rvm": "^0.3.2"
+    },
+    "ruff": {
+        "devDependencies": {
+            "t": "^0.1.7"
+        }
+    }
+}

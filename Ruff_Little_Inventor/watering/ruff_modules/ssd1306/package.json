@@ -1,0 +1,20 @@
+{
+    "name": "ssd1306",
+    "version": "2.1.0",
+    "description": "0.96-inch OLED display panel SSD1306 driver",
+    "author": "Young",
+    "main": "src/index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/young-mu/ruff-drivers/tree/master/ssd1306"
+    },
+    "bugs": {
+        "url": "https://github.com/young-mu/ruff-drivers/tree/master/ssd1306/issues"
+    },
+    "homepage": "https://github.com/young-mu/ruff-drivers/tree/master/ssd1306",
+    "keywords": [
+        "OLED",
+        "SSD1306"
+    ]
+}

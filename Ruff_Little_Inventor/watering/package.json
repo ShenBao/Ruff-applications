@@ -1,0 +1,21 @@
+{
+    "name": "auto_water",
+    "version": "0.1.0",
+    "description": "Little Inventor project",
+    "author": "Soros Liu",
+    "main": "src/index.js",
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.2.0",
+            "*": "*"
+        },
+        "dependencies": {
+            "soil-moisture-sensor": "*",
+            "ssd1306": "^2.1.0",
+            "relay-1c": "^2.0.4",
+            "ruff-mbd-v1": "^4.2.0",
+            "button-gpio": "^2.0.5"
+        },
+        "devDependencies": {}
+    }
+}

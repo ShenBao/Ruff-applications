@@ -1,0 +1,21 @@
+{
+    "sessions": {
+        "ruffd/lan/3044a1001644": {
+            "board": "ruff-mbd-v1",
+            "name": "tuotuo_ruff",
+            "sn": "R0102850",
+            "mac": "30:44:a1:00:16:44",
+            "address": "10.0.1.86",
+            "token": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        "ruffd/lan/3044a100050e": {
+            "board": "ruff-mbd-v1",
+            "name": "i2c-test",
+            "sn": "R0100647",
+            "mac": "30:44:a1:00:05:0e",
+            "address": "10.0.1.157",
+            "token": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+    },
+    "active": "ruffd/lan/3044a100050e"
+}

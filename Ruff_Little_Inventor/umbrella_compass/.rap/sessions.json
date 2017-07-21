@@ -1,0 +1,18 @@
+{
+    "sessions": {
+        "ruffd/lan/192.168.78.1": {
+            "name": "192.168.78.1",
+            "board": "ruff-mbd-v1",
+            "address": "192.168.78.1"
+        },
+        "ruffd/lan/3044a1000fc4": {
+            "board": "ruff-mbd-v1",
+            "name": "umbrella",
+            "sn": "R0102018",
+            "mac": "30:44:a1:00:0f:c4",
+            "address": "10.0.1.160",
+            "token": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+    },
+    "active": "ruffd/lan/3044a1000fc4"
+}

@@ -1,0 +1,30 @@
+{
+    "devices": [
+        {
+            "id": "compass",
+            "model": "gy-271",
+            "driver": "gy-271",
+            "inputs": {
+                "i2c": {
+                    "type": "i2c",
+                    "args": {
+                        "address": 30
+                    }
+                }
+            }
+        },
+        {
+            "id": "oled",
+            "model": "SSD1306",
+            "driver": "ssd1306",
+            "inputs": {
+                "i2c": {
+                    "type": "i2c",
+                    "args": {
+                        "address": 60
+                    }
+                }
+            }
+        }
+    ]
+}

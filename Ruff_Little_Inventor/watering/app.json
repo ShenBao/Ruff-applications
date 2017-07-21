@@ -1,0 +1,60 @@
+{
+    "devices": [
+        {
+            "id": "soil-moisture-sensor",
+            "model": "soil-moisture-sensor",
+            "driver": "soil-moisture-sensor",
+            "args": {
+                "waterVoltage": 1.2,
+                "airVoltage": 2.6,
+                "interval": 1000
+            },
+            "inputs": {
+                "adc": {
+                    "type": "adc"
+                }
+            }
+        },
+        {
+            "id": "oled",
+            "model": "SSD1306",
+            "driver": "ssd1306",
+            "inputs": {
+                "i2c": {
+                    "type": "i2c",
+                    "args": {
+                        "address": 60
+                    }
+                }
+            }
+        },
+        {
+            "id": "relay",
+            "model": "RELAY-1C",
+            "driver": "relay-1c",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "out",
+                        "level": "high"
+                    }
+                }
+            }
+        },
+        {
+            "id": "button",
+            "model": "CK002",
+            "driver": "button-gpio",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        }
+    ]
+}

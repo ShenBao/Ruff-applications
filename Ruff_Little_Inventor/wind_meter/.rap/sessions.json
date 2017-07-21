@@ -1,0 +1,26 @@
+{
+    "sessions": {
+        "ruffd/lan/192.168.78.1": {
+            "name": "192.168.78.1",
+            "board": "ruff-mbd-v1",
+            "address": "192.168.78.1"
+        },
+        "ruffd/lan/3044a1000ee6": {
+            "board": "ruff-mbd-v1",
+            "name": "wind",
+            "sn": "R0101907",
+            "mac": "30:44:a1:00:0e:e6",
+            "address": "10.0.1.176",
+            "token": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        "ruffd/lan/3044a1001122": {
+            "board": "ruff-mbd-v1",
+            "name": "Ruff_Young",
+            "sn": "R0102193",
+            "mac": "30:44:a1:00:11:22",
+            "address": "10.0.1.178",
+            "token": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+    },
+    "active": "ruffd/lan/3044a1001122"
+}
